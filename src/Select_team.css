@@ -1,0 +1,38 @@
+.container{
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    padding-bottom: 60px;
+}
+
+.col-md-3{
+    background-color: red;
+}
+
+h6{
+    color:white;
+}
+h2{
+    padding-bottom: 20px;
+    background-color: red;
+    padding-top: 3px;
+    color:#fff;
+    width: 500px;
+    margin-left:300px ;
+    border-radius: 30px;
+    padding-top: 10px;
+    
+}
+.row
+{
+    padding-left: 350px;
+}
+.start_button{
+    margin-top: 50px;
+    width: 150px;
+    color:white;
+    background-color: green;
+    border-radius: 30px;
+
+}

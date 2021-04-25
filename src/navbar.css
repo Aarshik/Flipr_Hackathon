@@ -1,0 +1,58 @@
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    padding-top: 10px;
+    background-color:#000;
+}
+.navbar_logo {
+    width: 50px;
+    object-fit: contain;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+button
+{
+    height:50px;
+    color:white;
+    background-color: rgb(247, 16, 16);
+ 
+}
+.teamselect_btn{
+    margin-left: 450px;
+    border-radius: 30px;
+}
+.score_btn,.livecmts_btn{
+    margin-left: 50px ;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        height: 70px;
+        width: 200%;
+        top: 0%;
+        align-items: left;
+        position: sticky;
+        padding-top: 10px;
+        background-color:#000;
+    }
+    button
+    {
+        height:50px;
+        color:white;
+        background-color: rgb(247, 16, 16);
+        display:none;  
+    }
+    .teamselect_btn{
+        margin-left: 650px;
+        border-radius: 30px;
+    }
+    .score_btn,.livecmts_btn{
+        margin-left: 50px ;
+        border-radius: 30px;
+    }
+
+
+}
